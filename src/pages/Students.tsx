@@ -401,7 +401,7 @@ function Students() {
                   <img
                     src={student.image}
                     alt={student.name}
-                    className="w-24 h-24 rounded-lg mx-auto object-cover"
+                    className="w-36 h-36 rounded-lg mx-auto object-cover"
                   />
                   <div className="flex justify-center items-center mt-2">
                     <h4 className="text-lg font-semibold">{student.name}</h4>
