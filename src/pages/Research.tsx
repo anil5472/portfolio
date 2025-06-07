@@ -115,7 +115,7 @@ const sponsorLogos = [spon1, spon2, spon3, spon4];
 
 const collaborators = [
   {
-    name: "Prof. Lelitha Devi",
+    name: "Dr. Lelitha Devi",
     designation: "Professor",
     institute: "IIT Madras",
     photo:
@@ -147,7 +147,7 @@ const collaborators = [
       "https://iitr.ac.in/Centres/Centre%20for%20Transportation%20Systems/People/Faculty/101048.html",
   },
   {
-    name: "Prof. Larry Rilett",
+    name: "Dr. Larry Rilett",
     designation: "Professor",
     institute: "Auburn University",
     photo:
