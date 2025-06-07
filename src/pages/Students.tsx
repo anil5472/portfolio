@@ -170,6 +170,46 @@ function Students() {
       ],
       BTech: [
         {
+          name: "Shriyansh Sinha",
+          year: "2024-25",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: sample,
+          social: {
+            linkedin: "https://linkedin.com/in/danielbrown",
+          },
+        },
+        {
+          name: "Devansh Rai",
+          year: "2024-25",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: sample,
+          social: {
+            linkedin: "https://linkedin.com/in/danielbrown",
+          },
+        },
+        {
+          name: "Pranav Shajan Chandhirathil",
+          year: "2024-25",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: sample,
+          social: {
+            linkedin: "https://linkedin.com/in/danielbrown",
+          },
+        },
+        {
+          name: "Prince Kumar Singh",
+          year: "2024-25",
+          position: "IIT Patna",
+          caption: "Dreaming in algorithms and debugging in reality.",
+          image: sample,
+          social: {
+            linkedin: "https://linkedin.com/in/oliviawilson",
+          },
+        },
+        {
           name: "Abhinav Singh",
           year: "2023-24",
           position: "IIT Patna",
