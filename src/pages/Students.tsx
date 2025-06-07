@@ -179,7 +179,7 @@ function Students() {
           caption: "Turning ideas into reality with code.",
           image: chaitra,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinez",
+            linkedin: "https://www.linkedin.com/in/chaitra-pranesh/",
           },
         },
         {
@@ -189,7 +189,7 @@ function Students() {
           caption: "Making sense of data, one model at a time.",
           image: aakash,
           social: {
-            linkedin: "https://linkedin.com/in/emmadavis",
+            linkedin: "https://www.linkedin.com/in/aakashkumar15/",
           },
         },
       ],
