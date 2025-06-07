@@ -25,6 +25,9 @@ import brajesh from "../assets/brajesh.jpg";
 import piyush from "../assets/piyush.png";
 import rishav from "../assets/rishav.jpg";
 import krishanu from "../assets/krishanu.jpg";
+import rohit from "../assets/rohit.jpg";
+import abhay from "../assets/abhay.jpg";
+import satvik from "../assets/satvik.jpg";
 
 function Students() {
   const [selectedCategory, setSelectedCategory] = useState("Ongoing");
@@ -59,7 +62,7 @@ function Students() {
           caption: "Trying to finish my thesis before AI takes my job.",
           image: sample,
           social: {
-            linkedin: "https://linkedin.com/in/sophiajohnson",
+            linkedin: " ",
           },
         },
       ],
@@ -69,9 +72,9 @@ function Students() {
           year: "2025-26",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
-          image: sample,
+          image: abhay,
           social: {
-            linkedin: "https://linkedin.com/in/danielbrown",
+            linkedin: "https://www.linkedin.com/in/abhay-pratap-99840826b/",
           },
         },
         {
@@ -79,9 +82,9 @@ function Students() {
           year: "2025-26",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
-          image: sample,
+          image: satvik,
           social: {
-            linkedin: "https://linkedin.com/in/danielbrown",
+            linkedin: "https://www.linkedin.com/in/satvik-iitp/",
           },
         },
         {
@@ -89,9 +92,9 @@ function Students() {
           year: "2025-26",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
-          image: sample,
+          image: rohit,
           social: {
-            linkedin: "https://linkedin.com/in/danielbrown",
+            linkedin: "https://www.linkedin.com/in/rohit-kumawat-787b04307/",
           },
         },
         {
@@ -101,7 +104,7 @@ function Students() {
           caption: "Dreaming in algorithms and debugging in reality.",
           image: sample,
           social: {
-            linkedin: "https://linkedin.com/in/oliviawilson",
+            linkedin: "https://www.linkedin.com/in/khushboo-kumari-b117b8254/",
           },
         },
       ],
