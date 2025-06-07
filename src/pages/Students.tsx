@@ -41,8 +41,8 @@ function Students() {
       ],
       MTech: [
         {
-          name: "Priyanka Kumari",
-          year: "2024-2026",
+          name: "Vibhuti Bhushan Singh",
+          year: "2025-2026",
           position: "IIT Patna",
           caption: "Trying to finish my thesis before AI takes my job.",
           image: sample,
@@ -53,8 +53,8 @@ function Students() {
       ],
       BTech: [
         {
-          name: "Shriyansh Sinha",
-          year: "2024-25",
+          name: "Abhay Pratap",
+          year: "2025-26",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
           image: sample,
@@ -63,8 +63,8 @@ function Students() {
           },
         },
         {
-          name: "Devansh Rai",
-          year: "2024-25",
+          name: "Satvik Singh Chauhan",
+          year: "2025-26",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
           image: sample,
@@ -73,8 +73,8 @@ function Students() {
           },
         },
         {
-          name: "Pranav Shajan Chandhirathil",
-          year: "2024-25",
+          name: "Rohit Kumawat",
+          year: "2025-26",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
           image: sample,
@@ -83,8 +83,8 @@ function Students() {
           },
         },
         {
-          name: "Prince Kumar Singh",
-          year: "2024-25",
+          name: "Kushboo Kumari",
+          year: "2025-26",
           position: "IIT Patna",
           caption: "Dreaming in algorithms and debugging in reality.",
           image: sample,
@@ -97,6 +97,16 @@ function Students() {
     Graduated: {
       PhD: [],
       MTech: [
+        {
+          name: "Priyanka Kumari",
+          year: "2024-2026",
+          position: "IIT Patna",
+          caption: "Trying to finish my thesis before AI takes my job.",
+          image: sample,
+          social: {
+            linkedin: "https://linkedin.com/in/sophiajohnson",
+          },
+        },
         {
           name: "Krishanu Prakash",
           year: "2024-25",
