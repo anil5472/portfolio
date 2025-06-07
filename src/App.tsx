@@ -9,7 +9,7 @@ import {
   Linkedin,
   Mail,
 } from "lucide-react";
-import iitp from "./assets/iitp-logo.png";
+import iitp from "./assets/AIS Logo_v2.png";
 
 // Lazy-loaded components for better performance
 const Home = lazy(() => import("./pages/Home"));
@@ -66,10 +66,11 @@ function App() {
             <div className="flex justify-between items-center h-16">
               {/* Logo or Name - Optional */}
               <Link to="/" className="flex items-center space-x-3">
-                <img src={iitp} alt="" className="w-[3.5rem] h-[3.5rem]" />
+                {/* <img src={iitp} alt="" className="w-[3.5rem] h-[3.5rem]" />
                 <div className="text-2xl font-semibold text-[#3a3a3a]">
                   Anilkumar Bachu
-                </div>
+                </div> */}
+                <img src={iitp} alt="IIT Patna Logo" className="h-[3.5rem]" />
               </Link>
 
               {/* Desktop Navigation */}
