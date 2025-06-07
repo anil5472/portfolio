@@ -25,7 +25,7 @@ const researchAreas = [
   "Transportation Engineering",
   "Urban Mobility",
   "Naturalistic Driving Studies",
-  "Road Safety"
+  "Road Safety",
   "Traffic Operations and Management",
   "Traffic Flow Modelling",
   "Public Transportation Systems",
