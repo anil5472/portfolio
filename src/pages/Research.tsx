@@ -18,7 +18,7 @@ import res5 from "../assets/res5.png";
 import res6 from "../assets/res6.png";
 import spon1 from "../assets/spon1.png";
 import spon2 from "../assets/spon2.png";
-import spon3 from "../assets/spon3.png";
+import spon3 from "../assets/spon3.jpg";
 import spon4 from "../assets/spon4.png";
 
 const researchAreas = [
