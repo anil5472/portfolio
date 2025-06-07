@@ -16,6 +16,10 @@ import res3 from "../assets/res3.jpg";
 import res4 from "../assets/res4.png";
 import res5 from "../assets/res5.png";
 import res6 from "../assets/res6.png";
+import spon1 from "../assets/spon1.png";
+import spon2 from "../assets/spon2.png";
+import spon3 from "../assets/spon3.png";
+import spon4 from "../assets/spon4.png";
 
 const researchAreas = [
   "Transportation Engineering",
@@ -107,7 +111,7 @@ const labEnvironment = [
   { image: simullab, caption: "Simulation Lab" },
 ];
 
-const sponsorLogos = [biet, biet, biet, biet];
+const sponsorLogos = [spon1, spon2, spon3, spon4];
 
 const collaborators = [
   {
