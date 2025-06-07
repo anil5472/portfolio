@@ -199,7 +199,7 @@ const GridList = ({ items }) => (
         <img
           src={item.logo}
           alt={`${item.institution} logo`}
-          className="h-16 w-16 mr-4"
+          className="h-[5rem] w-[5rem] mr-4"
         />
         <div>
           <h3 className="text-lg font-semibold">{item.title || item.degree}</h3>
