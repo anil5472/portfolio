@@ -8,6 +8,7 @@ import anil from "../assets/anil.jpeg";
 import rg from "../assets/rg.png";
 import google from "../assets/google.png";
 import orchid from "../assets/orcid.png";
+import wos from "../assets/wos.png";
 
 const profile = {
   name: "Dr. Anilkumar Bachu",
@@ -112,7 +113,7 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="students/wos.png" alt="Scopus" className="w-8 h-8" />
+                <img src={wos} alt="Scopus" className="w-8 h-8" />
               </a>
             </div>
           </div>
