@@ -13,18 +13,22 @@ import iitp from "../assets/iitp.jpg";
 import res1 from "../assets/res1.png";
 import res2 from "../assets/res2.png";
 import res3 from "../assets/res3.jpg";
+import res4 from "../assets/res4.png";
+import res5 from "../assets/res5.png";
+import res6 from "../assets/res6.jpg";
 
 const researchAreas = [
   "Transportation Engineering",
   "Urban Mobility",
-  "Intelligent Transportation Systems",
+  "Naturalistic Driving Studies",
+  "Road Safety"
   "Traffic Operations and Management",
   "Traffic Flow Modelling",
   "Public Transportation Systems",
   "Traffic Database Management",
 ];
 
-const researchImages = [res1, res2, res3, res1, res2, res3];
+const researchImages = [res1, res2, res3, res4, res5, res6];
 
 const sponsoredProjects = [
   {
