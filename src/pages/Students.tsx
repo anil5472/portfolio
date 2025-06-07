@@ -156,17 +156,17 @@ function Students() {
           caption: "Turning ideas into reality with code.",
           image: piyush,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinez",
+            linkedin: "https://www.linkedin.com/in/pkpandeyiitp/",
           },
         },
         {
-          name: "Brajesh Kumar Dubey",
+          name: " Kumar Dubey",
           year: "2020-21",
           position: "IIT Patna",
           caption: "Turning ideas into reality with code.",
           image: brajesh,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinezhttps://www.linkedin.com/in/brajesh-kumar-dubey-223873233/",
+            linkedin: "https://www.linkedin.com/in/brajesh-kumar-dubey-223873233/",
           },
         },
         {
