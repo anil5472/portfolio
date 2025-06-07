@@ -135,6 +135,38 @@ const collaborators = [
     profileLink:
       "https://iitr.ac.in/Centres/Centre%20for%20Transportation%20Systems/People/Faculty/101048.html",
   },
+  {
+    name: "Prof. Lelitha Devi",
+    designation: "Professor",
+    institute: "IIT Madras",
+    photo:
+      "https://civil.iitm.ac.in/faculty/lelitha/admin/download/Lelitha_passport_bg%20-%20Lelitha%20Devi%20IITM.jpg",
+    profileLink: "https://civil.iitm.ac.in/faculty/lelitha/",
+  },
+  {
+    name: "Dr. Shankar Ram CS",
+    designation: "Assistant Professor",
+    institute: "IIT Roorkee",
+    photo: "https://ed.iitm.ac.in/~shankarram/Header_files/CSS_Jan_2016.jpg",
+    profileLink: "https://ed.iitm.ac.in/~shankarram/",
+  },
+  {
+    name: "Dr. Justin Dauwels",
+    designation: "Associate Professor",
+    institute: "TU Delft",
+    photo:
+      "https://microelectronics.tudelft.nl/shared/SPS/People/Foto%20Justin%20Dauwels.jpg",
+    profileLink: "https://microelectronics.tudelft.nl/People/bio.php?id=744",
+  },
+  {
+    name: "Dr. Dhivya Bharathi",
+    designation: "Assistant Professor",
+    institute: "IIT Roorkee",
+    photo:
+      "https://channeli.in/media/kernel/display_pictures/91449ba0-8282-4b47-b5a1-bc7eb0bce17b",
+    profileLink:
+      "https://iitr.ac.in/Centres/Centre%20for%20Transportation%20Systems/People/Faculty/101048.html",
+  },
 ];
 
 function Research() {
