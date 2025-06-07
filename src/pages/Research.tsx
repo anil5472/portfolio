@@ -24,7 +24,7 @@ const researchAreas = [
   "Traffic Database Management",
 ];
 
-const researchImages = [res1, res2, res3];
+const researchImages = [res1, res2, res3, res1, res2, res3];
 
 const sponsoredProjects = [
   {
