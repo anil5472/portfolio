@@ -147,36 +147,36 @@ const collaborators = [
       "https://iitr.ac.in/Centres/Centre%20for%20Transportation%20Systems/People/Faculty/101048.html",
   },
   {
-    name: "Prof. Lelitha Devi",
+    name: "Prof. Larry Rilett",
     designation: "Professor",
-    institute: "IIT Madras",
+    institute: "Auburn University",
     photo:
-      "https://civil.iitm.ac.in/faculty/lelitha/admin/download/Lelitha_passport_bg%20-%20Lelitha%20Devi%20IITM.jpg",
-    profileLink: "https://civil.iitm.ac.in/faculty/lelitha/",
+      "https://eng.auburn.edu/images/programs/civil/headshots/rilett-laurence.jpg",
+    profileLink: "https://eng.auburn.edu/autri/contact",
   },
   {
-    name: "Dr. Shankar Ram CS",
-    designation: "Assistant Professor",
-    institute: "IIT Roorkee",
-    photo: "https://ed.iitm.ac.in/~shankarram/Header_files/CSS_Jan_2016.jpg",
-    profileLink: "https://ed.iitm.ac.in/~shankarram/",
+    name: "Dr. Shriniwas S. Arkatkar",
+    designation: "Professor",
+    institute: "SVNIT Surat",
+    photo: "https://shriniwasprofile.wordpress.com/wp-content/uploads/2022/10/whatsapp-image-2022-10-22-at-4.09.33-pm.jpeg",
+    profileLink: "https://shriniwasprofile.wordpress.com/",
   },
   {
-    name: "Dr. Justin Dauwels",
+    name: "Dr. Manoj K. Jha",
     designation: "Associate Professor",
     institute: "TU Delft",
     photo:
-      "https://microelectronics.tudelft.nl/shared/SPS/People/Foto%20Justin%20Dauwels.jpg",
-    profileLink: "https://microelectronics.tudelft.nl/People/bio.php?id=744",
+      "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=P5t_XZIAAAAJ&citpid=1",
+    profileLink: "https://mkjhaconsult.com/about-dr-jha",
   },
   {
-    name: "Dr. Dhivya Bharathi",
-    designation: "Assistant Professor",
-    institute: "IIT Roorkee",
+    name: "Dr. Sarat Chandra Nagavarapu",
+    designation: "Director",
+    institute: "The Brite Group",
     photo:
-      "https://channeli.in/media/kernel/display_pictures/91449ba0-8282-4b47-b5a1-bc7eb0bce17b",
+      "https://saratchandranagavarapu.rf.gd/Sarat.jpg",
     profileLink:
-      "https://iitr.ac.in/Centres/Centre%20for%20Transportation%20Systems/People/Faculty/101048.html",
+      "https://saratchandranagavarapu.rf.gd/",
   },
 ];
 
