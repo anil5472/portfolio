@@ -15,7 +15,7 @@ import res2 from "../assets/res2.png";
 import res3 from "../assets/res3.jpg";
 import res4 from "../assets/res4.png";
 import res5 from "../assets/res5.png";
-import res6 from "../assets/res6.jpg";
+import res6 from "../assets/res6.png";
 
 const researchAreas = [
   "Transportation Engineering",
