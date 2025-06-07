@@ -114,7 +114,7 @@ function Students() {
       MTech: [
         {
           name: "Priyanka Kumari",
-          year: "2024-2026",
+          year: "2024-2025",
           position: "IIT Patna",
           caption: "Trying to finish my thesis before AI takes my job.",
           image: sample,
@@ -124,7 +124,7 @@ function Students() {
         },
         {
           name: "Krishanu Prakash",
-          year: "2024-25",
+          year: "2023-24",
           position: "IIT Patna",
           caption: "Turning ideas into reality with code.",
           image: krishanu,
