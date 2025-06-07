@@ -5,6 +5,7 @@ import iitp from "../assets/iitp-logo.png";
 import ntu from "../assets/NTU.jpg";
 import iitm from "../assets/iitm.jpg";
 import anil from "../assets/anil.jpeg";
+import anil1 from "../assets/anil1.png";
 import rg from "../assets/rg.png";
 import google from "../assets/google.png";
 import orchid from "../assets/orcid.png";
@@ -69,7 +70,7 @@ function Home() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
           <img
-            src={anil}
+            src={anil1}
             alt="Profile of Dr. Anilkumar Bachu"
             className="w-48 h-56 rounded-lg mb-8 md:mb-0 md:mr-8 object-cover"
           />
