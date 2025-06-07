@@ -11,8 +11,16 @@ import kartik from "../assets/karthik.jpg";
 import abhilash from "../assets/abhilash.jpg";
 import kamal from "../assets/kamal.jpg";
 import ananya from "../assets/ananya.jpg";
+import ananya from "../assets/ananya.jpg";
 import gopi from "../assets/gopi.jpg";
 import pawan from "../assets/pawan.jpg";
+import shriyan from "../assets/shriyan.jpg";
+import devansh from "../assets/devansh.jpg";
+import pranav from "../assets/pranav.jpg";
+import prince from "../assets/prince.jpg";
+import abhinav from "../assets/abhinav.jpg";
+import mukul from "../assets/mukul.jpg";
+import madhur from "../assets/madhur.jpg";
 
 function Students() {
   const [selectedCategory, setSelectedCategory] = useState("Ongoing");
@@ -184,9 +192,9 @@ function Students() {
           year: "2024-25",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
-          image: sample,
+          image: shriyan,
           social: {
-            linkedin: "https://linkedin.com/in/danielbrown",
+            linkedin: "https://www.linkedin.com/in/shriyansh-sinha-124a1922a/",
           },
         },
         {
@@ -194,9 +202,9 @@ function Students() {
           year: "2024-25",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
-          image: sample,
+          image: devansh,
           social: {
-            linkedin: "https://linkedin.com/in/danielbrown",
+            linkedin: "https://www.linkedin.com/in/devanshrai/",
           },
         },
         {
@@ -204,9 +212,9 @@ function Students() {
           year: "2024-25",
           position: "IIT Patna",
           caption: "Building the future one line of code at a time.",
-          image: sample,
+          image: pranav,
           social: {
-            linkedin: "https://linkedin.com/in/danielbrown",
+            linkedin: "https://www.linkedin.com/in/pranav-shajan-585ba4270/",
           },
         },
         {
@@ -214,9 +222,9 @@ function Students() {
           year: "2024-25",
           position: "IIT Patna",
           caption: "Dreaming in algorithms and debugging in reality.",
-          image: sample,
+          image: prince,
           social: {
-            linkedin: "https://linkedin.com/in/oliviawilson",
+            linkedin: "https://www.linkedin.com/in/prince-kumar-singh-781589298/",
           },
         },
         {
@@ -224,9 +232,9 @@ function Students() {
           year: "2023-24",
           position: "IIT Patna",
           caption: "Passionate about AI and machine learning.",
-          image: sample,
+          image: abhinav,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/abhinavsingh11/",
           },
         },
         {
@@ -234,9 +242,9 @@ function Students() {
           year: "2023-24",
           position: "IIT Patna",
           caption: "Passionate about AI and machine learning.",
-          image: sample,
+          image: mukul,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/mukul-panchal-64513a198/",
           },
         },
         {
@@ -244,9 +252,9 @@ function Students() {
           year: "2023-24",
           position: "IIT Patna",
           caption: "Passionate about AI and machine learning.",
-          image: sample,
+          image: madhur,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/madhur-garg-3409581bb/",
           },
         },
         {
@@ -256,7 +264,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: sample,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/dhangarneharani2003/",
           },
         },
         {
@@ -266,7 +274,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: hardik,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/hardik-arora-8b4225193/",
           },
         },
         {
@@ -276,7 +284,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: gaurav,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/gaurav-chaudhary-2b43b5193/",
           },
         },
         {
@@ -286,7 +294,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: kartik,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/kartik-shinde/",
           },
         },
         {
@@ -296,7 +304,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: abhilash,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/v-abhilash-reddy-8658ab186/",
           },
         },
         {
@@ -306,7 +314,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: kamal,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/kamal-kaushik-varanasi/",
           },
         },
         {
@@ -314,9 +322,9 @@ function Students() {
           year: "2021-22",
           position: "IIT Patna",
           caption: "Passionate about AI and machine learning.",
-          image: kamal,
+          image: ananya,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/ananyasingh06/",
           },
         },
         {
@@ -326,7 +334,7 @@ function Students() {
           caption: "Passionate about AI and machine learning.",
           image: gopi,
           social: {
-            linkedin: "https://linkedin.com/in/noahgarcia",
+            linkedin: "https://www.linkedin.com/in/nairgk/",
           },
         },
         {
@@ -336,7 +344,7 @@ function Students() {
           caption: "Coding my way to success, one bug at a time.",
           image: pawan,
           social: {
-            linkedin: "https://linkedin.com/in/avarodriguez",
+            linkedin: "https://www.linkedin.com/in/pawan-tiwari-27023b159/",
           },
         },
       ],
