@@ -124,8 +124,8 @@ const collaborators = [
   },
   {
     name: "Dr. Shankar Ram CS",
-    designation: "Assistant Professor",
-    institute: "IIT Roorkee",
+    designation: "Professor",
+    institute: "IIT Madras",
     photo: "https://ed.iitm.ac.in/~shankarram/Header_files/CSS_Jan_2016.jpg",
     profileLink: "https://ed.iitm.ac.in/~shankarram/",
   },
@@ -163,16 +163,16 @@ const collaborators = [
   },
   {
     name: "Dr. Manoj K. Jha",
-    designation: "Associate Professor",
-    institute: "TU Delft",
+    designation: "Director",
+    institute: "The Brite Group",
     photo:
       "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=P5t_XZIAAAAJ&citpid=1",
     profileLink: "https://mkjhaconsult.com/about-dr-jha",
   },
   {
     name: "Dr. Sarat Chandra Nagavarapu",
-    designation: "Director",
-    institute: "The Brite Group",
+    designation: "Senior Scientist",
+    institute: "A Star, Singapore",
     photo:
       "https://saratchandranagavarapu.rf.gd/Sarat.jpg",
     profileLink:
