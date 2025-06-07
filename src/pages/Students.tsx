@@ -21,6 +21,10 @@ import prince from "../assets/prince.jpg";
 import abhinav from "../assets/abhinav.jpg";
 import mukul from "../assets/mukul.jpg";
 import madhur from "../assets/madhur.jpg";
+import brajesh from "../assets/brajesh.jpg";
+import piyush from "../assets/piyush.png";
+import rishav from "../assets/rishav.jpg";
+import krishanu from "../assets/krishanu.jpg";
 
 function Students() {
   const [selectedCategory, setSelectedCategory] = useState("Ongoing");
@@ -112,7 +116,7 @@ function Students() {
           caption: "Trying to finish my thesis before AI takes my job.",
           image: sample,
           social: {
-            linkedin: "https://linkedin.com/in/sophiajohnson",
+            linkedin: " ",
           },
         },
         {
@@ -120,9 +124,9 @@ function Students() {
           year: "2024-25",
           position: "IIT Patna",
           caption: "Turning ideas into reality with code.",
-          image: sample,
+          image: krishanu,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinez",
+            linkedin: "https://www.linkedin.com/in/krishanu-prakash-97083a178/",
           },
         },
         {
@@ -132,7 +136,7 @@ function Students() {
           caption: "Turning ideas into reality with code.",
           image: sample,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinez",
+            linkedin: " ",
           },
         },
         {
@@ -140,9 +144,9 @@ function Students() {
           year: "2022-23",
           position: "IIT Patna",
           caption: "Turning ideas into reality with code.",
-          image: sample,
+          image: rishav,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinez",
+            linkedin: "https://www.linkedin.com/in/rishav-jai/",
           },
         },
         {
@@ -150,7 +154,7 @@ function Students() {
           year: "2021-22",
           position: "IIT Patna",
           caption: "Turning ideas into reality with code.",
-          image: sample,
+          image: piyush,
           social: {
             linkedin: "https://linkedin.com/in/liammartinez",
           },
@@ -160,9 +164,9 @@ function Students() {
           year: "2020-21",
           position: "IIT Patna",
           caption: "Turning ideas into reality with code.",
-          image: sample,
+          image: brajesh,
           social: {
-            linkedin: "https://linkedin.com/in/liammartinez",
+            linkedin: "https://linkedin.com/in/liammartinezhttps://www.linkedin.com/in/brajesh-kumar-dubey-223873233/",
           },
         },
         {
