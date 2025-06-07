@@ -10,6 +10,9 @@ import expsetup from "../assets/Experiment Setup.png";
 import simullab from "../assets/Simulation Lab.png";
 import biet from "../assets/biet.png";
 import iitp from "../assets/iitp.jpg";
+import res1 from "../assets/res1.png";
+import res2 from "../assets/res2.png";
+import res3 from "../assets/res3.jpg";
 
 const researchAreas = [
   "Transportation Engineering",
@@ -21,7 +24,7 @@ const researchAreas = [
   "Traffic Database Management",
 ];
 
-const researchImages = [iitp, iitp, iitp];
+const researchImages = [res1, res2, res3];
 
 const sponsoredProjects = [
   {
