@@ -343,7 +343,7 @@ function Research() {
                   key={index}
                   src={logo}
                   alt={`Sponsor ${index + 1}`}
-                  className="h-16"
+                  className="h-24"
                 />
               ))}
             </div>
