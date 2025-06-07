@@ -581,7 +581,7 @@ function Publications() {
         <ol className="list-decimal pl-5 space-y-2" style={{ counterReset: "list-counter", listStyleType: "none" }}>
           {reversedPublications.map((pub, index) => (
             <li key={index} className="text-gray-800" style={{ counterIncrement: "list-counter", position: "relative" }}>
-              <span style={{ position: "absolute", left: "-30px" }}>{reversedPublications.length - index}</span>
+              <span style={{ position: "absolute", left: "-30px" }}>{reversedPublications.length - index}.</span>
 
               {/* Author and year */}
               {pub.authors}. 
