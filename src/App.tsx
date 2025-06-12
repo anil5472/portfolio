@@ -35,7 +35,9 @@ function App() {
     { name: "Publications", href: "/publications" },
     { name: "Students", href: "/students" },
     { name: "Teaching", href: "/teaching" },
-    { name: "Contact", href: "/contact" },
+    { name: "Contact", href: "/contact" }, 
+  ];
+  const moreNavigation = [
     { name: "Synergistic Activities", href: "/synergistic-activities" },
     { name: "Gallery", href: "/gallery" },
   ];
