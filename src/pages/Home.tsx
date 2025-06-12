@@ -9,6 +9,7 @@ import rg from "../assets/rg.png";
 import google from "../assets/google.png";
 import orchid from "../assets/orcid.png";
 import wos from "../assets/wos.png";
+import cv from "../assets/cv.pdf"; // <-- Import your CV here
 
 const profile = {
   name: "Dr. Anilkumar Bachu",
@@ -72,9 +73,6 @@ const researchSkills = [
   "Experimental Design",
 ];
 
-// <-- INSERT your OneDrive share link below! -->
-const cvLink = "https://1drv.ms/b/c/5c97037dc0b009f1/EYdIdHas4cpHqdPEMrsCeZcBnKnb26bR0DoRa9o_h_OCNQ?e=2IqyoD";
-
 function Home() {
   const [showTooltip, setShowTooltip] = useState(false);
 
@@ -112,7 +110,7 @@ function Home() {
             <p className="mt-2 text-xl font-medium text-gray-600">
               {profile.department1}
             </p>
-            {/* Begin: Logos and Download CV in the same row */}
+            {/* Logos and Download CV in the same row */}
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 mt-4">
               <a
                 href="https://scholar.google.com/citations?user=mrw1V7YAAAAJ&hl=en"
@@ -147,7 +145,7 @@ function Home() {
                 <img src={wos} alt="Scopus" className="w-8 h-8" />
               </a>
               {/* Download CV Button */}
-              <a href={cvLink} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
+              <a href={cv} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
                 <button
                   className="ml-3 px-5 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all"
                   style={{ minWidth: "120px" }}
@@ -156,7 +154,6 @@ function Home() {
                 </button>
               </a>
             </div>
-            {/* End: Logos and Download CV in the same row */}
           </div>
         </div>
 
