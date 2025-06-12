@@ -4,7 +4,6 @@ import biet from "../assets/biet.png";
 import iitp from "../assets/iitp-logo.png";
 import ntu from "../assets/NTU.jpg";
 import iitm from "../assets/iitm.jpg";
-import anil from "../assets/anil.jpeg";
 import anil1 from "../assets/anil1.png";
 import rg from "../assets/rg.png";
 import google from "../assets/google.png";
@@ -73,6 +72,9 @@ const researchSkills = [
   "Experimental Design",
 ];
 
+// <-- INSERT your OneDrive share link below! -->
+const cvLink = "YOUR_ONEDRIVE_SHARE_LINK";
+
 function Home() {
   const [showTooltip, setShowTooltip] = useState(false);
 
@@ -110,16 +112,6 @@ function Home() {
             <p className="mt-2 text-xl font-medium text-gray-600">
               {profile.department1}
             </p>
-            {/* Download CV Button */}
-            <div className="flex justify-center md:justify-start mt-4">
-              <a href="/cv.pdf" download>
-                <button
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all"
-                >
-                  Download CV
-                </button>
-              </a>
-            </div>
             <div className="flex justify-center md:justify-start space-x-4 mt-3">
               <a
                 href="https://scholar.google.com/citations?user=mrw1V7YAAAAJ&hl=en"
@@ -150,25 +142,35 @@ function Home() {
                 <img src={wos} alt="Scopus" className="w-8 h-8" />
               </a>
             </div>
+            {/* Download CV Button placed here, after logos */}
+            <div className="flex justify-center md:justify-start mt-4">
+              <a href={cvLink} target="_blank" rel="noopener noreferrer">
+                <button
+                  className="px-5 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all"
+                >
+                  Download CV
+                </button>
+              </a>
+            </div>
           </div>
         </div>
 
-        {/* Research Skills Section */}
-        <Section title="Research Skills">
-          <ul className="flex flex-wrap justify-center md:justify-start gap-3 mt-2">
-            {researchSkills.map((skill, idx) => (
-              <li
-                key={idx}
-                className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold shadow"
-              >
-                {skill}
-              </li>
-            ))}
-          </ul>
-        </Section>
-
+        {/* About Section with Research Skills */}
         <Section title="About">
           <p className="text-lg text-gray-600">{profile.about}</p>
+          <div className="mt-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Research Skills</h3>
+            <ul className="flex flex-wrap gap-3">
+              {researchSkills.map((skill, idx) => (
+                <li
+                  key={idx}
+                  className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold shadow"
+                >
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
         </Section>
 
         <Section
