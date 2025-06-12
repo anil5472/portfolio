@@ -36,9 +36,6 @@ function App() {
     { name: "Students", href: "/students" },
     { name: "Teaching", href: "/teaching" },
     { name: "Contact", href: "/contact" },
-  ];
-
-  const moreNavigation = [
     { name: "Synergistic Activities", href: "/synergistic-activities" },
     { name: "Gallery", href: "/gallery" },
   ];
