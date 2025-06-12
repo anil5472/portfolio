@@ -112,11 +112,13 @@ function Home() {
             <p className="mt-2 text-xl font-medium text-gray-600">
               {profile.department1}
             </p>
-            <div className="flex justify-center md:justify-start space-x-4 mt-3">
+            {/* Begin: Logos and Download CV in the same row */}
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 mt-4">
               <a
                 href="https://scholar.google.com/citations?user=mrw1V7YAAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex-shrink-0"
               >
                 <img src={google} alt="Google Scholar" className="w-8 h-8" />
               </a>
@@ -124,6 +126,7 @@ function Home() {
                 href="https://www.researchgate.net/profile/Anilkumar-Bachu?ev=hdr_xprf"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex-shrink-0"
               >
                 <img src={rg} alt="ResearchGate" className="w-8 h-8" />
               </a>
@@ -131,6 +134,7 @@ function Home() {
                 href="https://orcid.org/my-orcid?orcid=0000-0001-5933-8362"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex-shrink-0"
               >
                 <img src={orchid} alt="ORCID" className="w-8 h-8" />
               </a>
@@ -138,38 +142,38 @@ function Home() {
                 href="https://www.webofscience.com/wos/author/record/ABF-9870-2021"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex-shrink-0"
               >
                 <img src={wos} alt="Scopus" className="w-8 h-8" />
               </a>
-            </div>
-            {/* Download CV Button placed here, after logos */}
-            <div className="flex justify-center md:justify-start mt-4">
-              <a href={cvLink} target="_blank" rel="noopener noreferrer">
+              {/* Download CV Button */}
+              <a href={cvLink} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
                 <button
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all"
+                  className="ml-3 px-5 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all"
+                  style={{ minWidth: "120px" }}
                 >
                   Download CV
                 </button>
               </a>
             </div>
+            {/* End: Logos and Download CV in the same row */}
           </div>
         </div>
 
-        {/* About Section with Research Skills */}
+        {/* About Section with Research Skills INLINE */}
         <Section title="About">
-          <p className="text-lg text-gray-600">{profile.about}</p>
-          <div className="mt-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Research Skills</h3>
-            <ul className="flex flex-wrap gap-3">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-4">
+            <p className="text-lg text-gray-600">{profile.about}</p>
+            <div className="flex flex-wrap gap-2">
               {researchSkills.map((skill, idx) => (
-                <li
+                <span
                   key={idx}
                   className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold shadow"
                 >
                   {skill}
-                </li>
+                </span>
               ))}
-            </ul>
+            </div>
           </div>
         </Section>
 
