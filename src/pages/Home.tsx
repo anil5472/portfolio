@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Book } from "lucide-react";
 import biet from "../assets/biet.png";
 import iitp from "../assets/iitp-logo.png";
@@ -16,7 +16,7 @@ const profile = {
   title: "Assistant Professor",
   department: "Department of Civil and Environmental Engineering",
   department1: "Indian Institute of Technology Patna",
-  about: `I am an Assistant Professor at the Indian Institute of Technology Patna, specializing in Transportation Engineering. My research focuses on traffic flow modeling, intelligent transportation systems, and sustainable urban mobility solutions. Through my work, I aim to contribute to the development of efficient and eco-friendly transportation networks.`,
+  about: `I am an Assistant Professor at the Indian Institute of Technology Patna, specializing in Transportation Engineering. My research focuses on traffic flow modeling, intelligent transportation systems, and sustainable mobility.`
 };
 
 const appointments = [
@@ -64,16 +64,39 @@ const education = [
   },
 ];
 
+const researchSkills = [
+  "Traffic Flow Modeling",
+  "Data Analysis",
+  "Machine Learning",
+  "Statistical Modeling",
+  "Literature Review",
+  "Experimental Design",
+];
+
 function Home() {
+  const [showTooltip, setShowTooltip] = useState(false);
+
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
-          <img
-            src={anil1}
-            alt="Profile of Dr. Anilkumar Bachu"
-            className="w-48 h-56 rounded-lg mb-8 md:mb-0 md:mr-8 object-cover"
-          />
+          <div className="relative">
+            <img
+              src={anil1}
+              alt="Profile of Dr. Anilkumar Bachu"
+              className="w-48 h-56 rounded-lg mb-8 md:mb-0 md:mr-8 object-cover transition-shadow duration-300 hover:shadow-2xl cursor-pointer"
+              onMouseEnter={() => setShowTooltip(true)}
+              onMouseLeave={() => setShowTooltip(false)}
+            />
+            {showTooltip && (
+              <div
+                className="absolute left-1/2 z-10 -bottom-10 transform -translate-x-1/2 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg text-sm"
+                style={{ whiteSpace: "nowrap" }}
+              >
+                👋 Hi! This is Dr. Anilkumar Bachu
+              </div>
+            )}
+          </div>
           <div>
             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
               {profile.name}
@@ -87,6 +110,16 @@ function Home() {
             <p className="mt-2 text-xl font-medium text-gray-600">
               {profile.department1}
             </p>
+            {/* Download CV Button */}
+            <div className="flex justify-center md:justify-start mt-4">
+              <a href="/cv.pdf" download>
+                <button
+                  className="px-5 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all"
+                >
+                  Download CV
+                </button>
+              </a>
+            </div>
             <div className="flex justify-center md:justify-start space-x-4 mt-3">
               <a
                 href="https://scholar.google.com/citations?user=mrw1V7YAAAAJ&hl=en"
@@ -119,6 +152,20 @@ function Home() {
             </div>
           </div>
         </div>
+
+        {/* Research Skills Section */}
+        <Section title="Research Skills">
+          <ul className="flex flex-wrap justify-center md:justify-start gap-3 mt-2">
+            {researchSkills.map((skill, idx) => (
+              <li
+                key={idx}
+                className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold shadow"
+              >
+                {skill}
+              </li>
+            ))}
+          </ul>
+        </Section>
 
         <Section title="About">
           <p className="text-lg text-gray-600">{profile.about}</p>
@@ -199,7 +246,7 @@ const GridList = ({ items }) => (
       >
         <img
           src={item.logo}
-          alt={`${item.institution} logo`}
+          alt={`${item.institution || item.university} logo`}
           className="h-[5rem] w-[5rem] mr-4"
         />
         <div>
