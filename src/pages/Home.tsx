@@ -73,7 +73,7 @@ const researchSkills = [
 ];
 
 // <-- INSERT your OneDrive share link below! -->
-const cvLink = "YOUR_ONEDRIVE_SHARE_LINK";
+const cvLink = "https://1drv.ms/b/c/5c97037dc0b009f1/EYdIdHas4cpHqdPEMrsCeZcBnKnb26bR0DoRa9o_h_OCNQ?e=2IqyoD";
 
 function Home() {
   const [showTooltip, setShowTooltip] = useState(false);
