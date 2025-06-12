@@ -68,26 +68,21 @@ function Home() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
+        <h1 className="text-5xl font-bold text-center text-gray-900">
+          {profile.name}
+        </h1>
+
+        <div className="flex flex-col md:flex-row items-center md:items-start mt-10">
           <img
             src={anil1}
             alt="Profile of Dr. Anilkumar Bachu"
-            className="w-48 h-56 rounded-lg mb-8 md:mb-0 md:mr-8 object-cover"
+            className="w-48 h-56 rounded-lg object-cover mr-8"
           />
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
-              {profile.name}
-            </h1>
-            <p className="mt-3 font-bold text-2xl text-gray-500">
-              {profile.title}
-            </p>
-            <p className="mt-2 text-xl font-medium text-gray-600">
-              {profile.department}
-            </p>
-            <p className="mt-2 text-xl font-medium text-gray-600">
-              {profile.department1}
-            </p>
-            <div className="flex justify-center md:justify-start space-x-4 mt-3">
+            <p className="font-bold text-2xl text-gray-700">{profile.title}</p>
+            <p className="text-xl font-medium text-gray-600 mt-1">{profile.department}</p>
+            <p className="text-xl font-medium text-gray-600 mt-1">{profile.department1}</p>
+            <div className="flex space-x-4 mt-4">
               <a
                 href="https://scholar.google.com/citations?user=mrw1V7YAAAAJ&hl=en"
                 target="_blank"
