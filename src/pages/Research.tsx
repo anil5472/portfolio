@@ -70,6 +70,14 @@ const sponsoredProjects = [
     status: "2025-2028\n(ongoing)",
     role: "Co-PI",
   },
+  {
+    sNo: 5,
+    title: "Data-Driven Feedback for Fuel Efficiency: A Reinforcement Learning Framework Tailored to Indian Driving Behavior",
+    agency: "ANRF",
+    amount: "99.58 lakhs",
+    status: "2026-2029\n(ongoing)",
+    role: "Co-PI",
+  },
 ];
 
 const studentProjects = [
@@ -434,3 +442,4 @@ function Research() {
 }
 
 export default Research;
+
