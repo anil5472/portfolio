@@ -62,12 +62,11 @@ const education = [
 ];
 
 const researchInterests = [
-  "Traffic Flow Modeling",
-  "Data Analysis",
-  "Machine Learning",
-  "Statistical Modeling",
-  "Literature Review",
-  "Experimental Design",
+  "Public Transportation",
+  "Naturalistic Driving Studies",
+  "Road Safety",
+  "AI/ML for Transportation",
+  "Traffic Flow Modelling",
 ];
 
 // CV link (use your actual asset or OneDrive link as needed)
@@ -274,3 +273,4 @@ const GridList = ({ items }) => (
 );
 
 export default Home;
+
