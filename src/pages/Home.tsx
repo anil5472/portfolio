@@ -162,7 +162,27 @@ function Home() {
           </div>
         </div>
 
-        <Section title="About"> {/* About text */} <div> <p className="text-lg text-gray-600">{profile.about}</p> </div> {/* Research Interests as badges */} <div className="flex flex-wrap gap-2 mt-4"> {researchInterests.map((interest, idx) => ( <span key={idx} className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold shadow" > {interest} </span> ))} </div> </Section>
+        <Section title="About">
+  {/* About text */}
+  <div>
+    <p className="text-lg text-gray-600">
+      {profile.about}
+    </p>
+  </div>
+
+  {/* Research Interests as badges */}
+  <div className="flex flex-wrap gap-2 mt-4">
+    {researchInterests.map((interest, idx) => (
+      <span
+        key={idx}
+        className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold shadow"
+      >
+        {interest}
+      </span>
+    ))}
+  </div>
+</Section>
+
 
         <Section
           title="Appointments"
@@ -256,5 +276,6 @@ const GridList = ({ items }) => (
 );
 
 export default Home;
+
 
 
