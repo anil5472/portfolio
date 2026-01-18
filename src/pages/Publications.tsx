@@ -250,32 +250,32 @@ const journalPublications = [
     "link": "https://doi.org/10.1109/TITS.2025.3545695"
   },
   {
-    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
-    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
+    "authors": "Jha, M.K., R. Jaiswal, DSK Varma, S Rankavat, BA Kumar, and PK Jha",
+    "title": "A Machine Learning Approach to Traffic Congestion Hotspot Identification and Prediction",
     "year": "2025",
-    "journal": "Transactions on Intelligent Transportation Systems",
-    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+    "journal": "Future Transportation",
+    "link": "https://doi.org/10.3390/futuretransp5040161"
   },
   {
-    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
-    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
+    "authors": "Kushwaha, A.K., H. Kumar, H. Arora, and B.A. Kumar",
+    "title": "A Deep Embedded Clustering Method for Location-Specific Driving Safety Profiling using Trajectory Data",
     "year": "2025",
-    "journal": "Transactions on Intelligent Transportation Systems",
-    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+    "journal": "Scientific Reports",
+    "link": "https://doi.org/10.1038/s41598-025-25538-8"
   },
   {
-    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
-    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
-    "year": "2025",
-    "journal": "Transactions on Intelligent Transportation Systems",
-    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+    "authors": "Kushwaha, A.K., N. Takhellambam, K. Prakash, B.A. Kumar, and R. Paramanik",
+    "title": "Analysis of Truck Driver Behaviour Using Factor Analysis: A Study of Drivers from Bihar, India",
+    "year": "2026",
+    "journal": "Transportation Research Record",
+    "link": "https://doi.org/10.1177/0361198125140920"
   },
   {
-    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
-    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
-    "year": "2025",
-    "journal": "Transactions on Intelligent Transportation Systems",
-    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+    "authors": "Kushwaha, A.K., D. Rai, P.S. Chandhirathil, and B.A. Kumar",
+    "title": "Modeling and Real-Time Classification of Driving Behavior in Mixed Traffic: A Naturalistic Study using Rule-Based Labeling and Supervised Learning",
+    "year": "2026",
+    "journal": "Expert Systems With Applications",
+    "link": "https://doi.org/10.1016/j.eswa.2026.131106"
   }
 ]
 
@@ -673,4 +673,5 @@ function Publications() {
 }
 
 export default Publications;
+
 
