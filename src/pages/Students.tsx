@@ -53,6 +53,15 @@ function Students() {
             linkedin: "https://www.linkedin.com/in/ramanand-s-361b761a2/",
           },
         },
+        {
+          name: "Aishwarya Kumari",
+          year: "2025 - 2029 (expected)",
+          position: "IIT Patna",
+          image: sample,
+          social: {
+            linkedin: " ",
+          },
+        },
       ],
       MTech: [
         {
@@ -437,3 +446,4 @@ function Students() {
 }
 
 export default Students;
+
