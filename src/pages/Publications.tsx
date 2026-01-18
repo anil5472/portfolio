@@ -268,7 +268,7 @@ const journalPublications = [
     "title": "Analysis of Truck Driver Behaviour Using Factor Analysis: A Study of Drivers from Bihar, India",
     "year": "2026",
     "journal": "Transportation Research Record",
-    "link": "https://doi.org/10.1177/0361198125140920"
+    "link": "https://doi.org/10.1177/03611981251409206"
   },
   {
     "authors": "Kushwaha, A.K., D. Rai, P.S. Chandhirathil, and B.A. Kumar",
@@ -536,6 +536,34 @@ const conferenceProceedings = [
     "conference": "27th Annual Conference of Euro Working Group on Transportation",
     "location": "Scotland",
     "date": "01-03 September 2025"
+  },
+  {
+    "authors": "Kushwaha, A., P.S. Chandhirathil, D. Rai, and B.A. Kumar",
+    "title": "ML-DRIVE: Machine Learning based Classification of Safe and Unsafe Driving using Naturalistic Driving Data",
+    "conference": "8th Conference on Transportation Research Group of India",
+    "location": "IIT Guwahati",
+    "date": "17-20 December 2025"
+  },
+  {
+    "authors": "Singh, R., M. Garg, B.A. Kumar",
+    "title": "ST-BuTCH: Spatio-Temporal Modeling of Bus Travel Time using Self-Attention-Based ConvLSTM and Deep Embedded Hierarchical Clustering",
+    "conference": "8th Conference on Transportation Research Group of India",
+    "location": "IIT Guwahati",
+    "date": "17-20 December 2025"
+  },
+  {
+    "authors": "Singh, R., S. Sinha, D. Bharathi, B.A. Kumar, and B. Ghosh B.A. Kumar",
+    "title": "HyDeML: Hybrid Mode Decomposition-based Machine Learning Framework for Bus Arrival Time Prediction in Indian Cities",
+    "conference": "105th Annual Meeting of Transportation Research Board",
+    "location": "Washington D.C., USA",
+    "date": "11-15 Jan 2026"
+  },
+  {
+    "authors": "Singh, R., M. Garg, and B.A. Kumar",
+    "title": "Cluster-Aware Deep Attention Networks for Bus Arrival Time Prediction: A Study from Indian Urban Corridors",
+    "conference": "105th Annual Meeting of Transportation Research Board",
+    "location": "Washington D.C., USA",
+    "date": "11-15 Jan 2026"
   }
 ];
 
@@ -673,5 +701,6 @@ function Publications() {
 }
 
 export default Publications;
+
 
 
