@@ -248,6 +248,34 @@ const journalPublications = [
     "year": "2025",
     "journal": "Transactions on Intelligent Transportation Systems",
     "link": "https://doi.org/10.1109/TITS.2025.3545695"
+  },
+  {
+    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
+    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
+    "year": "2025",
+    "journal": "Transactions on Intelligent Transportation Systems",
+    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+  },
+  {
+    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
+    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
+    "year": "2025",
+    "journal": "Transactions on Intelligent Transportation Systems",
+    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+  },
+  {
+    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
+    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
+    "year": "2025",
+    "journal": "Transactions on Intelligent Transportation Systems",
+    "link": "https://doi.org/10.1109/TITS.2025.3545695"
+  },
+  {
+    "authors": "Kumar, B.A., R. Singh, H.E. Shaji, and L. Vanajakshi",
+    "title": "Bus Arrival Time Prediction: A Comprehensive Review",
+    "year": "2025",
+    "journal": "Transactions on Intelligent Transportation Systems",
+    "link": "https://doi.org/10.1109/TITS.2025.3545695"
   }
 ]
 
@@ -645,3 +673,4 @@ function Publications() {
 }
 
 export default Publications;
+
