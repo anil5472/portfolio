@@ -28,6 +28,8 @@ import krishanu from "../assets/krishanu.jpg";
 import rohit from "../assets/rohit.jpg";
 import abhay from "../assets/abhay.jpg";
 import satvik from "../assets/satvik.jpg";
+import vidhan from "../assets/vidhan.jpg";
+import garvit from "../assets/garvit.jpg";
 
 function Students() {
   const [selectedCategory, setSelectedCategory] = useState("Ongoing");
@@ -86,6 +88,36 @@ function Students() {
         },
       ],
       BTech: [
+        {
+          name: "Garvit B Nahta",
+          year: "2026-27",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: garvit,
+          social: {
+            linkedin: "https://www.linkedin.com/in/garvit-b-nahta-4731ab291/",
+          },
+        },
+        {
+          name: "Mandeep Singh",
+          year: "2026-27",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: sample,
+          social: {
+            linkedin: " ",
+          },
+        },
+        {
+          name: "Vidhan Bansal",
+          year: "2026-27",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: vidhan,
+          social: {
+            linkedin: "https://www.linkedin.com/in/vidhan-bansal-9bb784290/",
+          },
+        },        
         {
           name: "Abhay Pratap",
           year: "2025-26",
@@ -456,5 +488,6 @@ function Students() {
 }
 
 export default Students;
+
 
 
