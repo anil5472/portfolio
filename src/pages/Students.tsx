@@ -65,6 +65,16 @@ function Students() {
       ],
       MTech: [
         {
+          name: "Jahnvi Jassi",
+          year: "2026-2027",
+          position: "IIT Patna",
+          caption: "Trying to finish my thesis before AI takes my job.",
+          image: sample,
+          social: {
+            linkedin: " ",
+          },
+        },
+        {
           name: "Vibhuti Bhushan Singh",
           year: "2025-2026",
           position: "IIT Patna",
@@ -446,4 +456,5 @@ function Students() {
 }
 
 export default Students;
+
 
