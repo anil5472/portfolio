@@ -3,6 +3,24 @@ import { Users } from 'lucide-react';
 
 const ugCourses = [
   {
+    code: "CE1201",
+    name: "Engineering Graphics",
+    syllabus: "https://example.com/cs101-syllabus",
+    materials: [
+      { title: "Lecture 1", link: "https://example.com/cs101-lec1" },
+      { title: "Lecture 2", link: "https://example.com/cs101-lec2" }
+    ]
+  },
+  {
+    code: "CE3206",
+    name: "Transportation Engineering-II",
+    syllabus: "https://example.com/cs101-syllabus",
+    materials: [
+      { title: "Lecture 1", link: "https://example.com/cs101-lec1" },
+      { title: "Lecture 2", link: "https://example.com/cs101-lec2" }
+    ]
+  },
+  {
     code: "CE324",
     name: "Transportation Engineering",
     syllabus: "https://example.com/cs101-syllabus",
@@ -50,6 +68,33 @@ const ugCourses = [
 ];
 
 const pgCourses = [
+  {
+    code: "CE5111",
+    name: "Urban Transportation Planning",
+    syllabus: "https://example.com/cs501-syllabus",
+    materials: [
+      { title: "Lecture 1", link: "https://example.com/cs501-lec1" },
+      { title: "Lecture 2", link: "https://example.com/cs501-lec2" }
+    ]
+  },
+  {
+    code: "CE5113",
+    name: "Traffic Engineering and Management",
+    syllabus: "https://example.com/cs501-syllabus",
+    materials: [
+      { title: "Lecture 1", link: "https://example.com/cs501-lec1" },
+      { title: "Lecture 2", link: "https://example.com/cs501-lec2" }
+    ]
+  },
+  {
+    code: "CE5114",
+    name: "Computer Applications in Transportation Engineering",
+    syllabus: "https://example.com/cs501-syllabus",
+    materials: [
+      { title: "Lecture 1", link: "https://example.com/cs501-lec1" },
+      { title: "Lecture 2", link: "https://example.com/cs501-lec2" }
+    ]
+  },
   {
     code: "CE543",
     name: "Traffic Engineering and Highway Safety",
@@ -196,3 +241,4 @@ function Teaching() {
 }
 
 export default Teaching;
+
