@@ -72,7 +72,7 @@ const sponsoredProjects = [
   },
   {
     sNo: 5,
-    title: "Data-Driven Feedback for Fuel Efficiency: A Reinforcement Learning Framework Tailored to Indian Driving Behavior",
+    title: "Data-Driven Feedback for Fuel Efficiency: A Reinforcement Learning Framework Tailored to Indian Driving Behaviour",
     agency: "ANRF",
     amount: "99.58 lakhs",
     status: "2026-2029\n(ongoing)",
@@ -359,48 +359,75 @@ function Research() {
         )}
 
         {activeSection === "facilities" && (
-          <>
-            <div className="mt-12">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Facilities
-              </h3>
-              <h4 className="text-xl font-semibold text-gray-800 mt-4">
-                Equipment
-              </h4>
-              <div className="grid gap-4 md:grid-cols-4">
-                {equipmentList.map((item, index) => (
-                  <div key={index} className="text-center">
-                    <img
-                      src={item.image}
-                      alt={item.caption}
-                      className="rounded-lg shadow-md border border-gray-300"
-                    />
-                    <p className="mt-2 text-gray-900 font-semibold">
-                      {item.caption}
-                    </p>
-                  </div>
-                ))}
-              </div>
-              <h4 className="text-xl font-semibold text-gray-800 mt-6">
-                Lab Environment
-              </h4>
-              <div className="grid gap-4 md:grid-cols-4">
-                {labEnvironment.map((item, index) => (
-                  <div key={index} className="text-center">
-                    <img
-                      src={item.image}
-                      alt={item.caption}
-                      className="rounded-lg shadow-md border border-gray-300"
-                    />
-                    <p className="mt-2 text-gray-900 font-semibold">
-                      {item.caption}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
+  <div className="mt-12">
+
+    {/* Main Heading */}
+    <h3 className="text-3xl font-bold text-gray-900 mb-8">
+      Facilities
+    </h3>
+
+    {/* ===================== */}
+    {/* Equipment Section */}
+    {/* ===================== */}
+    <h4 className="text-2xl font-semibold text-gray-800 mb-6">
+      Equipment
+    </h4>
+
+    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {equipmentList.map((item, index) => (
+        <div
+          key={index}
+          className="text-center bg-white rounded-xl shadow-md border border-gray-200 p-4 hover:shadow-xl transition duration-300"
+        >
+          {/* Fixed Uniform Image Box */}
+          <div className="w-full h-44 overflow-hidden rounded-lg border border-gray-300 bg-gray-50 flex items-center justify-center">
+            <img
+              src={item.image}
+              alt={item.caption}
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Caption */}
+          <p className="mt-3 text-gray-900 font-semibold text-sm">
+            {item.caption}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    {/* ===================== */}
+    {/* Lab Environment Section */}
+    {/* ===================== */}
+    <h4 className="text-2xl font-semibold text-gray-800 mt-12 mb-6">
+      Lab Environment
+    </h4>
+
+    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {labEnvironment.map((item, index) => (
+        <div
+          key={index}
+          className="text-center bg-white rounded-xl shadow-md border border-gray-200 p-4 hover:shadow-xl transition duration-300"
+        >
+          {/* Fixed Uniform Image Box */}
+          <div className="w-full h-44 overflow-hidden rounded-lg border border-gray-300 bg-gray-50 flex items-center justify-center">
+            <img
+              src={item.image}
+              alt={item.caption}
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Caption */}
+          <p className="mt-3 text-gray-900 font-semibold text-sm">
+            {item.caption}
+          </p>
+        </div>
+      ))}
+    </div>
+
+  </div>
+)}
 
         {activeSection === "collaborators" && (
           <div className="mt-12">
@@ -442,5 +469,6 @@ function Research() {
 }
 
 export default Research;
+
 
 
