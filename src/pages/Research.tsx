@@ -186,6 +186,42 @@ const collaborators = [
     profileLink:
       "https://saratchandranagavarapu.rf.gd/",
   },
+  {
+    name: "Dr. Sarat Chandra Nagavarapu",
+    designation: "Senior Scientist",
+    institute: "A Star, Singapore",
+    photo:
+      "https://saratchandranagavarapu.rf.gd/Sarat.jpg",
+    profileLink:
+      "https://saratchandranagavarapu.rf.gd/",
+  },
+  {
+    name: "Dr. Sarat Chandra Nagavarapu",
+    designation: "Senior Scientist",
+    institute: "A Star, Singapore",
+    photo:
+      "https://saratchandranagavarapu.rf.gd/Sarat.jpg",
+    profileLink:
+      "https://saratchandranagavarapu.rf.gd/",
+  },
+  {
+    name: "Dr. Sarat Chandra Nagavarapu",
+    designation: "Senior Scientist",
+    institute: "A Star, Singapore",
+    photo:
+      "https://saratchandranagavarapu.rf.gd/Sarat.jpg",
+    profileLink:
+      "https://saratchandranagavarapu.rf.gd/",
+  },
+  {
+    name: "Dr. Sarat Chandra Nagavarapu",
+    designation: "Senior Scientist",
+    institute: "A Star, Singapore",
+    photo:
+      "https://saratchandranagavarapu.rf.gd/Sarat.jpg",
+    profileLink:
+      "https://saratchandranagavarapu.rf.gd/",
+  },
 ];
 
 function Research() {
@@ -464,6 +500,7 @@ function Research() {
 }
 
 export default Research;
+
 
 
 
