@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Microscope, Users } from "lucide-react";
-import hspc from "../assets/high speed camera.png";
-import trafficSensor from "../assets/Traffic Sensor.png";
-import simulsoftware from "../assets/Simulation Software.png";
-import datalogger from "../assets/Data Logger.png";
-import gps from "../assets/GPS Tracker.png";
+import imu from "../assets/imu.png";
+import gopro from "../assets/gopro.jpg";
+import lidar from "../assets/lidar.jpg";
+import vbox from "../assets/vbox.jpg";
+import gps from "../assets/gps.png";
 import controlroom from "../assets/Control Room.png";
-import expsetup from "../assets/Experiment Setup.png";
-import simullab from "../assets/Simulation Lab.png";
+import ins1 from "../assets/ins1.png";
+import ins2 from "../assets/ins2.png";
 import biet from "../assets/biet.png";
 import iitp from "../assets/iitp.jpg";
 import res1 from "../assets/res1.png";
@@ -106,17 +106,17 @@ const studentProjects = [
 ];
 
 const equipmentList = [
-  { image: hspc, caption: "High-Speed Camera" },
-  { image: trafficSensor, caption: "Traffic Sensor" },
-  { image: simulsoftware, caption: "Simulation Software" },
-  { image: datalogger, caption: "Data Logger" },
+  { image: vbox, caption: "Video V-Box" },
+  { image: imu, caption: "IMU" },
+  { image: lidar, caption: "LiDAR" },
+  { image: gopro, caption: "Go Pro Video Camera" },
   { image: gps, caption: "GPS Tracker" },
 ];
 
 const labEnvironment = [
   { image: controlroom, caption: "Control Room" },
-  { image: expsetup, caption: "Experiment Setup" },
-  { image: simullab, caption: "Simulation Lab" },
+  { image: ins1, caption: "Instrumented Vehicle" },
+  { image: ins2, caption: "Instrumented Vehicle" },
 ];
 
 const sponsorLogos = [spon1, spon2, spon3, spon4];
@@ -442,4 +442,5 @@ function Research() {
 }
 
 export default Research;
+
 
