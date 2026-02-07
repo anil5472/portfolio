@@ -4,8 +4,9 @@ import { Users } from 'lucide-react';
 const activities = {
   "Workshops Conducted": {
     "Workshops Conducted": [
-      "Workshop on Applications of AI and Data Science in Transportation Engineering, 20 September 2024, IIT Patna",
-      "Faculty Development Program on Basics of Transportation Engineering, Sponsored by Department of Science and Technology, Govt. of Bihar (15.93 Lakhs); Co-organizers: Dr. Sudhir Varma, Dr. Syed KK Hussaini, 14-25 July 2022", 
+      "Training on Applications of AI for Sustainable Planning and Development, Sponsored by Department of Planning and Development, Govt. of Bihar; Co-organizers: Dr. Akshar Tripathi, Dr. Amit Kumar Verma, 28-29 November 2025, IIT Patna (Budget: 4.21 Lakhs)",
+      "Workshop on Applications of AI and Data Science in Transportation Engineering, 20 September 2024, IIT Patna (Budget: 4.68 Lakhs)",
+      "Faculty Development Program on Basics of Transportation Engineering, Sponsored by Department of Science and Technology, Govt. of Bihar; Co-organizers: Dr. Sudhir Varma, Dr. Syed KK Hussaini, 14-25 July 2022 (Budget: 15.93 Lakhs)", 
       "Short-Term Course on Advanced Techniques for Traffic Data Analysis, Visualization and State Estimation for Indian Cities. Sponsored by I-DAPT Hub Foundation, IIT (BHU) Varanasi; Co-organizers: Dr. Agnivesh Pani, Dr. Ankit Gupta, 20-24 Dec 2021 (Online Mode)",
       "Workshop on Intelligent Transportation Systems (ITS), 13th International Conference on COMmunication Systems & NETworkS, Bengaluru, India, 09 Jan 2021; Chair: Prof. Nagendra Velaga"
     ]
@@ -135,3 +136,4 @@ function SynergisticActivities() {
 }
 
 export default SynergisticActivities;
+
