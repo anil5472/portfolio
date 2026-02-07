@@ -358,74 +358,69 @@ function Research() {
           </>
         )}
 
-        {activeSection === "facilities" && (
+       {activeSection === "facilities" && (
   <div className="mt-12">
 
-    {/* Main Heading */}
-    <h3 className="text-3xl font-bold text-gray-900 mb-8">
+    {/* Title */}
+    <h3 className="text-3xl font-bold text-gray-900 mb-10">
       Facilities
     </h3>
 
-    {/* ===================== */}
-    {/* Equipment Section */}
-    {/* ===================== */}
+    {/* Equipment */}
     <h4 className="text-2xl font-semibold text-gray-800 mb-6">
       Equipment
     </h4>
 
-    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {equipmentList.map((item, index) => (
         <div
           key={index}
-          className="text-center bg-white rounded-xl shadow-md border border-gray-200 p-4 hover:shadow-xl transition duration-300"
+          className="flex flex-col items-center bg-white rounded-2xl shadow-md border border-gray-200 p-4 hover:shadow-lg transition"
         >
-          {/* Fixed Uniform Image Box */}
-          <div className="w-full h-44 overflow-hidden rounded-lg border border-gray-300 bg-gray-50 flex items-center justify-center">
+          {/* Fixed Image Frame */}
+          <div className="w-full h-40 flex items-center justify-center bg-gray-50 rounded-xl overflow-hidden">
             <img
               src={item.image}
               alt={item.caption}
-              className="w-full h-full object-cover"
+              className="max-h-full max-w-full object-contain"
             />
           </div>
 
           {/* Caption */}
-          <p className="mt-3 text-gray-900 font-semibold text-sm">
+          <p className="mt-4 text-gray-900 font-semibold text-sm text-center">
             {item.caption}
           </p>
         </div>
       ))}
     </div>
 
-    {/* ===================== */}
-    {/* Lab Environment Section */}
-    {/* ===================== */}
-    <h4 className="text-2xl font-semibold text-gray-800 mt-12 mb-6">
+    {/* Lab Environment */}
+    <h4 className="text-2xl font-semibold text-gray-800 mt-14 mb-6">
       Lab Environment
     </h4>
 
-    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {labEnvironment.map((item, index) => (
         <div
           key={index}
-          className="text-center bg-white rounded-xl shadow-md border border-gray-200 p-4 hover:shadow-xl transition duration-300"
+          className="flex flex-col items-center bg-white rounded-2xl shadow-md border border-gray-200 p-4 hover:shadow-lg transition"
         >
-          {/* Fixed Uniform Image Box */}
-          <div className="w-full h-44 overflow-hidden rounded-lg border border-gray-300 bg-gray-50 flex items-center justify-center">
+          {/* Fixed Image Frame */}
+          <div className="w-full h-40 flex items-center justify-center bg-gray-50 rounded-xl overflow-hidden">
             <img
               src={item.image}
               alt={item.caption}
-              className="w-full h-full object-cover"
+              className="max-h-full max-w-full object-contain"
             />
           </div>
 
           {/* Caption */}
-          <p className="mt-3 text-gray-900 font-semibold text-sm">
+          <p className="mt-4 text-gray-900 font-semibold text-sm text-center">
             {item.caption}
           </p>
         </div>
       ))}
     </div>
-
   </div>
 )}
 
@@ -469,6 +464,7 @@ function Research() {
 }
 
 export default Research;
+
 
 
 
