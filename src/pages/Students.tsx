@@ -413,7 +413,7 @@ function Students() {
   const captions = {
     Students: "Where the struggle is real, but so are the dreams!",
     Ongoing: "One step closer to graduation... hopefully!",
-    Graduated: "Officially out of the student life—now what?",
+    Graduated: "Officially out of the student life, and now contributing to Society at our best possible level :-) ?",
   };
 
   return (
