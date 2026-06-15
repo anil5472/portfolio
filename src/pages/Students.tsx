@@ -106,8 +106,8 @@ function Students() {
       PhD: [
         {
           name: "Ankit Kumar Kushwaha",
-          year: "2021 - 2025 (expected)",
-          position: "IIT Patna",
+          year: "2021 - 20266",
+          position: "Thesis Title: Analysis and Modelling of Naturalistic Driving Data for Road Safety Applications",
           image: ankit,
           social: {
             linkedin: "https://www.linkedin.com/in/ankit-kushwaha-62784b189/",
