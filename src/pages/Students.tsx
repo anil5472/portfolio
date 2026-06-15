@@ -38,15 +38,6 @@ function Students() {
     Ongoing: {
       PhD: [
         {
-          name: "Ankit Kumar Kushwaha",
-          year: "2021 - 2025 (expected)",
-          position: "IIT Patna",
-          image: ankit,
-          social: {
-            linkedin: "https://www.linkedin.com/in/ankit-kushwaha-62784b189/",
-          },
-        },
-        {
           name: "Ramanand Singh",
           year: "2022 - 2026 (expected)",
           position: "IIT Patna",
@@ -161,7 +152,17 @@ function Students() {
       ],
     },
     Graduated: {
-      PhD: [],
+      PhD: [
+        {
+          name: "Ankit Kumar Kushwaha",
+          year: "2021 - 2025 (expected)",
+          position: "IIT Patna",
+          image: ankit,
+          social: {
+            linkedin: "https://www.linkedin.com/in/ankit-kushwaha-62784b189/",
+          },
+        },
+           ],
       MTech: [
         {
           name: "Priyanka Kumari",
