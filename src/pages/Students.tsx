@@ -67,16 +67,7 @@ function Students() {
             linkedin: " ",
           },
         },
-        {
-          name: "Vibhuti Bhushan Singh",
-          year: "2025-2026",
-          position: "IIT Patna",
-          caption: "Trying to finish my thesis before AI takes my job.",
-          image: sample,
-          social: {
-            linkedin: " ",
-          },
-        },
+        
       ],
       BTech: [
         {
@@ -109,46 +100,6 @@ function Students() {
             linkedin: "https://www.linkedin.com/in/vidhan-bansal-9bb784290/",
           },
         },        
-        {
-          name: "Abhay Pratap",
-          year: "2025-26",
-          position: "IIT Patna",
-          caption: "Building the future one line of code at a time.",
-          image: abhay,
-          social: {
-            linkedin: "https://www.linkedin.com/in/abhay-pratap-99840826b/",
-          },
-        },
-        {
-          name: "Satvik Singh Chauhan",
-          year: "2025-26",
-          position: "IIT Patna",
-          caption: "Building the future one line of code at a time.",
-          image: satvik,
-          social: {
-            linkedin: "https://www.linkedin.com/in/satvik-iitp/",
-          },
-        },
-        {
-          name: "Rohit Kumawat",
-          year: "2025-26",
-          position: "IIT Patna",
-          caption: "Building the future one line of code at a time.",
-          image: rohit,
-          social: {
-            linkedin: "https://www.linkedin.com/in/rohit-kumawat-787b04307/",
-          },
-        },
-        {
-          name: "Kushboo Kumari",
-          year: "2025-26",
-          position: "IIT Patna",
-          caption: "Dreaming in algorithms and debugging in reality.",
-          image: sample,
-          social: {
-            linkedin: "https://www.linkedin.com/in/khushboo-kumari-b117b8254/",
-          },
-        },
       ],
     },
     Graduated: {
@@ -164,6 +115,16 @@ function Students() {
         },
            ],
       MTech: [
+        {
+          name: "Vibhuti Bhushan Singh",
+          year: "2025-2026",
+          position: "IIT Patna",
+          caption: "Trying to finish my thesis before AI takes my job.",
+          image: sample,
+          social: {
+            linkedin: " ",
+          },
+        },
         {
           name: "Priyanka Kumari",
           year: "2024-2025",
@@ -246,6 +207,46 @@ function Students() {
         },
       ],
       BTech: [
+        {
+          name: "Abhay Pratap",
+          year: "2025-26",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: abhay,
+          social: {
+            linkedin: "https://www.linkedin.com/in/abhay-pratap-99840826b/",
+          },
+        },
+        {
+          name: "Satvik Singh Chauhan",
+          year: "2025-26",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: satvik,
+          social: {
+            linkedin: "https://www.linkedin.com/in/satvik-iitp/",
+          },
+        },
+        {
+          name: "Rohit Kumawat",
+          year: "2025-26",
+          position: "IIT Patna",
+          caption: "Building the future one line of code at a time.",
+          image: rohit,
+          social: {
+            linkedin: "https://www.linkedin.com/in/rohit-kumawat-787b04307/",
+          },
+        },
+        {
+          name: "Kushboo Kumari",
+          year: "2025-26",
+          position: "IIT Patna",
+          caption: "Dreaming in algorithms and debugging in reality.",
+          image: sample,
+          social: {
+            linkedin: "https://www.linkedin.com/in/khushboo-kumari-b117b8254/",
+          },
+        },
         {
           name: "Shriyansh Sinha",
           year: "2024-25",
