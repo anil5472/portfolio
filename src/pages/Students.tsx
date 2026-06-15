@@ -106,8 +106,8 @@ function Students() {
       PhD: [
         {
           name: "Ankit Kumar Kushwaha",
-          year: "2021 - 20266",
-          position: "Thesis Title: Analysis and Modelling of Naturalistic Driving Data for Road Safety Applications",
+          year: "2021 - 2026",
+          position: "Thesis Title: Analysis and Modelling of Driver Behaviour using Naturalistic Driving Data for Road Safety Applications",
           image: ankit,
           social: {
             linkedin: "https://www.linkedin.com/in/ankit-kushwaha-62784b189/",
